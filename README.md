@@ -15,12 +15,10 @@ a Python script that helps you quickly understand the structure and contents of 
 ## Usage
 
 1. Clone the repository or download the script file.
-2. Make sure you have Python installed on your system.
-3. Open a terminal or command prompt and navigate to the directory containing the script.
-4. Run the script using the command: `python project_scraper.py`.
-5. A folder selection dialog will appear. Select the root folder of the project you want to scan.
-6. The script will generate the project structure and extract important file data.
-7. Once the process is complete, you will find the generated files (`structure.json` and `extracted_data.txt`) in the same directory as the script.
+2. Run the script using the command: `python project_scraper.py`.
+3. A folder selection dialog will appear. Select the root folder of the project you want to scan.
+4. The script will generate the project structure and extract important file data.
+5. Once the process is complete, you will find the generated files (`structure.json` and `extracted_data.txt`) in the same directory as the script.
 
 ## Output
 
