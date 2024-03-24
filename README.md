@@ -9,14 +9,13 @@ a Python script that helps you quickly understand the structure and contents of 
 - Automatically scans the project directory and generates a JSON file (`structure.json`) representing the project's file structure.
 - Extracts important file data, including file contents, functions (for Python files), and classes (for Python files), and saves it to a text file (`extracted_data.txt`).
 - Supports a wide range of file extensions and important file names commonly found in various programming languages and frameworks.
-- Provides a user-friendly interface with a folder selection dialog and informative debug statements.
 - Saves the generated files in the same directory as the script for easy access.
 
 ## Usage
 
 1. Clone the repository or download the script file.
 2. Run the script using the command: `python project_scraper.py`.
-3. A folder selection dialog will appear. Select the root folder of the project you want to scan.
+3. A folder selection dialog will appear. Select the root folder of the project you want to scan. ( for level selection choose 1 or 2 they are slmost the same at this point) 
 4. The script will generate the project structure and extract important file data.
 5. Once the process is complete, you will find the generated files (`structure.json` and `extracted_data.txt`) in the same directory as the script.
 
