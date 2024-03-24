@@ -1,5 +1,5 @@
 # scalpel
-pthon script that helps you quickly understand the structure and contents of an unknown project.
+Phyton script that helps you quickly understand the structure and contents of an unknown project.
 
 
 a Python script that helps you quickly understand the structure and contents of an unknown project. It generates a structured representation of the project's files and extracts relevant data from important files, providing a solid foundation for further analysis and exploration.
