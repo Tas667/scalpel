@@ -8,11 +8,11 @@ def read_file_content(file_path):
         with open(file_path, 'r', encoding='utf-8') as file:
             return file.read()
     except FileNotFoundError:
-        print(f"Debug: File not found: {file_path}")
+        print(f"File not found: {file_path}")
         return None
     except Exception as e:
-        print(f"Debug: Error reading file: {file_path}")
-        print(f"Debug: Error: {str(e)}")
+        print(f"Error reading file: {file_path}")
+        print(f"Error: {str(e)}")
         return None
 
 def extract_functions(file_content):
